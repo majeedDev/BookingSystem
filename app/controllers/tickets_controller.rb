@@ -13,6 +13,7 @@ class TicketsController < ApplicationController
   # GET /tickets/new
   def new
     @ticket = Ticket.new
+    # Add a new Ticket
   end
 
   # GET /tickets/1/edit
